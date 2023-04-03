@@ -1,0 +1,6 @@
+#!/bin/sh
+
+case $1 in commit) set -- "$@" -S; esac
+
+/usr/bin/git "$@"
+
