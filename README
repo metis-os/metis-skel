@@ -1,0 +1,68 @@
+
+ __ __ ___ _____ _   __  
+|  V  | __|_   _| |/' _/ 
+| \_/ | _|  | | | |`._`. 
+|_| |_|___| |_| |_||___/   LINUX                          https://metislinux.org
+________________________________________________________________________________
+
+Skeleton for metislinux 
+________________________________________________________________________________
+
+
+More information:
+
+    - https://metislinux.org
+    - https://wiki.metislinux.org
+
+
+Signature Verification
+________________________________________________________________________________
+
+Enabling signature verification: https://kisslinux.org/install#3.0
+
+
+PwnWriter's public key:                                https://gpg.pwnwriter.xyz
+________________________________________________________________________________
+
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQGNBGNhAfMBDACseIr1zJ4eJ8YKTRtcDVOv0/00nhqF2xUb/xBB8ZCjD2pmHhFS
+QfR+skevxlvPjeqGdeNFvQbJo9qGMwjhyVu8SHf/SvH9y8kDQUXM1900Otahbq9c
+cR5VZRytr79FbxC0JPcdesdiGI26vqyDDWuJB8NNfpFmbkPPeY4a2FBOERrdvHDV
+JboVz02Nvo4JMftcjdGZyS37eRJV9376WtAkcw6vvZDJus3ARg1hEquKqYCviCHt
+pHZqUcam1I1bU0oJLbTR8mEYhpuqS/+zHQZZf0W5uANlavZDVHaJFwVesqXmjp0W
+f8dr7sseLbFLRgz3xV9Iu03wzR6/lkdcrgDfVA4//Zd+wO83QzCgClCqK874V0Jm
+gLmeXrcVP2/1c10K6hg7esFyluzoCJd5AQVdeLJgx0xWE2E39U8YJBj0jgdXOsDP
+CMonbFPROlx1Wiy0/b5WXxBAdyGVyZMMFtaH8mX/j1rXBqJX9+dL1l0TZKHRf31s
+CnpGfc7o9odh6K8AEQEAAbQjTmFiZWVuIFRpd2FyZWUgPGhleS5uYWJlZW5AdHV0
+YS5pbz6JAdQEEwEIAD4WIQQUDiMMWDThUuyMLGHbgjnPoKg7/QUCY2EB8wIbAwUJ
+A8JnAAULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRDbgjnPoKg7/bqtDACM772l
+WpAS0H1JEMbtChpVAhcZOVNiBaBd6qqFU5nxu3qJtVv2eCvKzDbMVkxfqzyMLQED
+eiy+GoX5+Mh3tg3LNacKS371ejhuI8XHQ/3Og8XYQ8rSDi3LTEHGPEi+wRsAM0l+
+QJ2p4enDGlrMoEkqzWW9WKMxv124sJH0jvLmO3ogAx6MSHBG7p3EY+Jt+HxVw3Fp
+73OTydVPYQxrdjhFgUsJ5x+Wld3RYoCMY5aoUc1R0FlfB/YiKOt1xoxsvDhveQmq
+xbVw6S+TFNFa4ltTvS/OVaYRa7VkfiOQq6hNc0DI1i1MImXNSrxIhEKyWKw4xNEh
+6QsafFrsFTc7uR+p0LB6Uj9lNI+wb2loPDJkANs5CDG5oLBBBe9NvDK7qmvUfEYT
+7giCgwGP2mdMntaaJlkjidezrgmkrsesm9Y/BG7jtGlR7e2sCtoIptK1slYaieBF
+4Erl8B5wAyID1CyFueybJvfoxC/ytrXrdik4cszvH4hbU8K4H8Fl0t3LRbq5AY0E
+Y2EB8wEMALvX5+rgeLCH6/UWOU4RJmoSoypGpX7C6kmZNmsQKv9NEqYQph8EBJEf
+n661umKjupEU7RmDup6LAVrJb3rmodXAKQfwl7rYiEHuPDdXMDBpwR1uIJN/F5vg
+kjPcxxKsO9+EVJZ+XaMHFEvyrol03HyaZ5+9IjiIqaqA0GAP6DFd9abVJPe46G7B
+qIJqxmu1ebZ+5cRgCDC38hoJAdsNaihbTj8zSdK+sT65Ufb4c881WZcght2BmpSt
+FD+g8T1rBlRJmcVtXII2U/6+YIyzIcruPeYLY7CdFhTJZV+X8JCYDBZH3hvG/hZa
+Q8YngxgMhMPX1IpPgMNaHJ1kYWKa8iHUa8UH3bmjR66+l6RUqtuXeF6sjh592TOj
++r+ncsUMbes2rXKUN/XBwn6h7cBt/EbxI5Dbl9bjTCi55yFbOD1Vvz8GFYRzZR6r
+VpYxH7aQsmatBbKBq+U0CfnGH0Lf4C29KpMTzeCwhgtWNk7R+ehdeNL2NPVm0LiM
+TEGRuwFMmwARAQABiQG8BBgBCAAmFiEEFA4jDFg04VLsjCxh24I5z6CoO/0FAmNh
+AfMCGwwFCQPCZwAACgkQ24I5z6CoO/1HDwv9GvuqDHVLMv1ZhF72ZDRgQo0hGKA8
+2D2f8uPBy89Fup4+tkoYkJFEJjP5l5tPzNBc2HM2/0mqeez6shyA3e9bPeIPI0FQ
+mLNmIhN+cMC5qJJ4XHjvQK1sT0b4rZESKm42HtOEYug0vgQlMly0T6UgCHidPc1q
+GhOZxMkZMPBT/kJf6YxatFqQNbxuuFi6jxYwnf6gYZcmmtbcReKtFSjimEX0NlP5
+TTb4do+l0iRKblddUC4ePSs2LoWIziGK8W0XtIoFvRmcdIDnItff73qZ7VqkOFRR
+v6nRQmElYWfr6w+3U7WK6G3bkcNajkNqTiQuhAwBdS6eA2RTZxuZcCu6xBJIlJ0M
+eFODOcBDMvwDw72AnybJ4VAlb/zJyyYXOUmJEVz1PZRuU9llWmR4IApY5zOQSmRj
+REo84NCdX0mwko0fumhF/xsalfHhKkXZcjvcny4IxY4xyqay8HGf6W175tm5IvAj
+Ix4JpD2N3yqnycPct5EF4QbKDPF6wJT25TXL
+=faBB
+-----END PGP PUBLIC KEY BLOCK-----
+  
