@@ -1,0 +1,10 @@
+NAME="METIS Linux"
+PRETTY_NAME="METIS Linux"
+ID=metis
+BUILD_ID=rolling
+ANSI_COLOR="0;36"
+HOME_URL="https://www.metislinux.org/"
+DOCUMENTATION_URL="https://wiki.metislinux.org/"
+BUG_REPORT_URL="https://github.com/metis-os"
+SUPPORT_URL="https://github.com/metis-os"
+LOGO=metislinux-logo
