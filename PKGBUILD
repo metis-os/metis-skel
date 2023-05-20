@@ -23,10 +23,10 @@ package() {
         local _config=${pkgdir}/etc/skel/metis/
 	mkdir -p "$_config"
 
-        cp -r ${srcdir}/.xprofile       "$_config"
-        cp -r ${srcdir}/.zprofile       "$_config"
-        cp -r ${srcdir}/.config         "$_config"
-        cp -r ${srcdir}/.cache          "$_config"
-        cp -r ${srcdir}/.local          "$_config"
+        cp -r ${srcdir}/xprofile       "$_config/.xprofile"
+        cp -r ${srcdir}/zprofile       "$_config/.zprofile"
+        cp -r ${srcdir}/config         "$_config/.config"
+        cp -r ${srcdir}/cache          "$_config/.cache"
+        cp -r ${srcdir}/local          "$_config/.local"
 }
 
