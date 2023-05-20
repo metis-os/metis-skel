@@ -1,0 +1,25 @@
+post_install() {
+  # User info
+  _user=$(who | awk '$0 !~ /root/ {print $1; exit}')
+  _install_dir="/home/${_user}/"
+  _files=(".cache" ".config" ".local" ".xprofile" ".zprofile")
+
+  # Remove existing files from the user's home directory
+  echo "Removing existing files from $_install_dir ..."
+  for file in "${_files[@]}"; do
+    rm -rf "$_install_dir$file"
+  done
+
+  # Copy files from /etc/skel to the user's home directory
+  echo "Copying files to $_install_dir ..."
+  for file in "${_files[@]}"; do
+    cp -r "/etc/skel/metis/$file" "$_install_dir"
+  done
+
+  # Set ownership of the copied files
+  echo "Setting ownership of copied files ..."
+  chown -R "${_user}:${_user}" "${_install_dir}"
+
+  echo "Post-installation completed."
+}
+
