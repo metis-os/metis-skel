@@ -12,7 +12,7 @@
        :class 'footerBtns'
  
   (btn :name ""
-  :command "rofi -show drun &"
+  :command "dmenu_run"
     :class "restart"
   )
 
