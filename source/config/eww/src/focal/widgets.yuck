@@ -1,6 +1,6 @@
 (defwidget time[]
     (box :class 'time' 
-    '󱑆 ${time} | ${date}')
+    ' ${time} | ${date}')
  )
 
 (defwidget radialBars[]
@@ -17,6 +17,6 @@
       :class 'RAM'
       :boxClass 'RAMBOX'
       )
-      (button :class 'mute' :onclick 'pactl set-sink-mute 0 toggle' ' ' )
+      (button :class 'mute' :onclick 'pactl set-sink-mute 0 toggle' '' )
      )
 )

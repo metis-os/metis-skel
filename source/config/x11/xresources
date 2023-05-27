@@ -2,7 +2,7 @@
 *.alpha: 0.30
 
 !! Set a default font and font size as below:
-*.font: JetBrainsMono Nerd Font:size=13
+*.font: JetBrainsMono Nerd Font:size=11
 
 /* name		dark	light */
 /* black	0	8 */

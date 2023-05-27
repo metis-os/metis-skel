@@ -21,12 +21,13 @@
   :class "lock"
  )
 
- (btn :name wifi 
-   :command "iwgtk"
-   :class "wifi"
+ (btn :name ""
+
+   :command "metis-dwm-script -q"
+   :class "quicklinks"
   )
 
- (btn :name "" 
+ (btn :name "拉" 
     :command "doas zzz"
     :class "sleep"
   )
