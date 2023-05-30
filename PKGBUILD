@@ -20,7 +20,7 @@ prepare() {
 
 package() {
 
-        local _config=${pkgdir}/etc/skel/metis/
+        local _config=${pkgdir}/etc/skel/
 	mkdir -p "$_config"
 
         cp -r ${srcdir}/xprofile       "$_config/.xprofile"
