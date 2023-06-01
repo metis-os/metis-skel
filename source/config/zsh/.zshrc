@@ -58,17 +58,8 @@ lfcd () {
         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
-bindkey -s '^n' '^uls -l\n'
-
-bindkey -s '^t' '^utmux \n'
-
-bindkey -s '^r' '^uranger \n'
 
 bindkey -s '^f' '^ucd "$(dirname "$(preview)")"\n'
-
-bindkey -s '^v' '^unvim . \n'
-
-bindkey -s '^p' '^upython -q \n'
 
 bindkey '^[[P' delete-char
 
