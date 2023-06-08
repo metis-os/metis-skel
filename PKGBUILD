@@ -2,7 +2,7 @@
 
 pkgname=metis-skel
 pkgver=1.0
-pkgrel=0
+pkgrel=1
 pkgdesc="Skeleton Configurations for METIS Linux"
 url="https://github.com/metis-os/metis-skel"
 arch=('x86_64')
